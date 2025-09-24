@@ -12,7 +12,7 @@ function runA1() {
     //          stores width/height on the instance.
     function Rectangle(width, height) { 
         Shape.call(this);
-        this.width = widthl;
+        this.width = width;
         this.height = height;
      }
 
